@@ -170,6 +170,8 @@ img {
 .contact-item .contact-link:hover,
 .contact-item .contact-link:focus {
     color: var(--main-color);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contact-item .contact-link {
@@ -187,6 +189,8 @@ img {
 
 .header-list .link:hover {
     color: var(--main-color);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contact-icon {
@@ -199,6 +203,8 @@ img {
 
 .contact-icon:hover {
     fill: var(--main-color);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /*-----------------HERO--------------------------*/
@@ -249,6 +255,8 @@ img {
 .hero-button:hover,
 .hero-buttom:focus {
     background-color: var(--buttomhover-color);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .overlay {
@@ -292,8 +300,8 @@ img {
     left: 50%;
     transform: translate(-50%, -50%);
 
-    min-height: 528px;
-    min-width: 581px;
+    min-height: 581px;
+    min-width: 528px;
     padding: 15px;
     
     background-color: var(--light-color);
@@ -457,8 +465,8 @@ img {
     width: 270px;
     background-color: var(--light-color);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
-        0px 1px 1px rgba(0, 0, 0, 0.14),
-        0px 2px 1px rgba(0, 0, 0, 0.2);
+    0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 }
 
@@ -511,6 +519,8 @@ img {
 .team-network-item:hover,
 .team-network-item:focus {
     background-color: var(--main-color);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-network-icon {
@@ -529,7 +539,9 @@ img {
 }
 
 .team-network-icon:hover {
-    fill: var(--light-color)
+    fill: var(--light-color);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-network-item:not(:last-child) {
@@ -538,6 +550,8 @@ img {
 
 .network-link:hover .team-network-icon{
     fill: var(--light-color);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /*-----------------CLIENTS-----------------------*/
@@ -580,18 +594,26 @@ img {
 .clients-icon:hover,
 .clients-icon:focus{
     border-color: #2196f3;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-item-icon:hover {
-    fill: var(--main-color)
+    fill: var(--main-color);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-item-link:hover {
     border-color: var(--main-color);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-item-link:hover .clients-item-icon{
-    fill: var(--main-color)
+    fill: var(--main-color);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-icon {
@@ -647,6 +669,8 @@ img {
 .contact-adress .contact-link:hover,
 .contact-adress .contakt-link:focus {
     color: var(--main-color);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer {
@@ -703,6 +727,8 @@ img {
 .contact-network-item:hover,
 .contact-network-item:focus {
     background-color: var(--main-color);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contact-network-item:not(:last-child) {
@@ -753,11 +779,17 @@ img {
     padding-right: 22px;
     padding-left: 22px;
     border-color: transparent;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .filter-link:hover,
 .filter-link:focus {
     color: var(--light-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+    0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .filter-link:active {
@@ -766,11 +798,14 @@ img {
 
 .filter-link:hover,
 .filter-link:focus {
-    background-color: var(--main-color)
+    background-color: var(--main-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+    0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .filter-button:active {
-    color: var(--light-color)
+    color: var(--light-color);
 }
 
 .filter-list {
@@ -795,8 +830,8 @@ img {
 .filter-button:focus {
     border-radius: 4px;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
-        0px 1px 2px rgba(0, 0, 0, 0.08),
-        0px 2px 2px rgba(0, 0, 0, 0.12);
+    0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .main-list {
